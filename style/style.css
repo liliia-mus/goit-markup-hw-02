@@ -6,7 +6,8 @@
 body{font-family:'Roboto',san-serif';
     color:#434455;background-color:#FFFFFF; }
 
-a:hover{color: } 
+a:hover{color:#4D5AE5; } 
+a :focus {#4D5AE5;}
 
 a {text-decoration-line: none;}
 .header-logo {font-family: 'Raleway';
@@ -42,7 +43,7 @@ a {text-decoration-line: none;}
     background-color:#F4F4FD;color:#4D5AE5;} 
 .main-button:active {background-color:#4D5AE5;color:#FFFFFF;}
 .main-button {cursor:pointer} 
-
+.main-button
 
 .section-title { font-family: inherit;
     font-style: normal;
