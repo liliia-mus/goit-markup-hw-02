@@ -1,92 +1,87 @@
 :root{ --primary-text-color:#434455;
---secondary-text-color:#2E2F42;--title-color:#FFFFFF;--background-color: #FFFFFF ;
---title-background-color: #2E2F42;
+--secondary-text-color:#2E2F42;--white-color:#FFFFFF;--background-color: #FFFFFF ;
+;--accent-color:#4D5AE5;--button-background:#F4F4FD;
 }
 
-body{font-family:'Roboto',san-serif';
-    color:#434455;background-color:#FFFFFF; }
+body{font-family:'Roboto',sans-serif;
+    color:var(--primary-text-color);background-color:var(--background-color); }
 
-a:hover{color:#4D5AE5; } 
-a :focus {#4D5AE5;}
+a:hover{color:var(--accent-color); } 
+a :focus {color: var(--accent-color);}
 
 a {text-decoration-line: none;}
-.header-logo {font-family: 'Raleway';
+
+.header-logo {font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
-     color: var(--secondary-text-color)}
+     color: var(--secondary-text-color);}
 .logo {
-    font-family:'Raleway';
+    font-family:'Raleway',sans-serif;
      font-weight: 800;
     font-size:18px;
     line-height: 1.3;
-    color: #4D5AE5;}
+    color:var(--accent-color);}
+.header{font size:16px;
+        line height:1.5;
+        color:var(--secondary-text-color);}
  
 .list {list-style:none;}
 
 .adress{list-style:none;}
 
 .adress
-{ font-family:'inherit',sans-serif;    
+{    
     font-size: 16px;
     line-height: 1.5;
     
     color:var(--primary-text-color);}
    
+.button {
     
+     Font size: 16px;
+    Line height:1.5;
+     background-color:var(--button-background);color:var(--accent-color);} 
+.button:active{background-color:var(--accent-color); color:var(--white-color);}
+.button {cursor:pointer;} 
 
-.main{}
-.main-button {font-family:inherit;
-    font-size: 16px;
-    line-height: 1.5;
-
-    background-color:#F4F4FD;color:#4D5AE5;} 
-.main-button:active {background-color:#4D5AE5;color:#FFFFFF;}
-.main-button {cursor:pointer} 
-.main-button
-
-.section-title-p { font-family: inherit;
-    font-style: normal;
+.section{background-color:var(--secondary-text-color);}
+.section-title-p{ 
     font-size: 20px;
     line-height: 1.2;
     color:var(--secondary-text-color)
 }
-.section-paragraph {font-family: inherit;
-    font-style: normal;
+.section-paragraph {
     font-size: 16px;
     line-height: 1.5;  
     color:var(--primary-text-color)
 }
 
-}
 
-.footer {font-family: 'Raleway';
-    font-size: 18px;
-    line-height: 1.3;
-     color:var(--secondary-text-color)
-}
-.footer-paragraph {font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+
+.footer {
+     background:#2E2F42;}
+
+.footer-paragraph {
     font-size: 16px;
     line-height: 1.5;
-    color: #E7E9FC;background: #2E2F42
+    color: #E7E9FC;
 }
-.footer-link{font-family: 'Raleway';
+.footer-link{font-family: 'Raleway',sans-serif;
      font-size: 18px;
     line-height: 1.16;
-    color: #F4F4FD;}
-/*for index.html*/
-.adress{list-style:none;}
-.section-button{background-color:#4D5AE5;color: #FFFFFF;}
+    color:var(--button-background);}
 
-.title{font-family:inherit;
+.adress{list-style:none;}
+.section-button{ background-color: var(--accent-color);}
+
+.title{
      font-size: 56px;
     line-height:1.07;
-    color:#FFFFFF ;
-    background-color:var(--title-background-color);}
+    
+    color:var(--white-color);}
 
-.section-advantages {font-family: inherit;
+.section-advantages {
     font-size: 20px;
     line-height: 1.2; color:var(--secondary-text-color);}
 .section-text {font-family:inherit;
@@ -94,17 +89,15 @@ a {text-decoration-line: none;}
     font-size: 16px;
     line-height:1.5;
     color:var(--primary-text-color);}
-.section-title {font-family:inherit;
+.section-title {
    font-size: 36px;
    line-height: 1.1;
-     color: var(--secondary-text-color);}
-.member {font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
+     color:var(--secondary-text-color);}
+.member {
     font-size: 20px;
     line-height:1.2;
    color:var(--secondary-text-color);}
-.member-position {font-family:inherit;
+.member-position {
     font-size: 16px;
     line-height:1.5;
     color:var(--primary-text-color);}
