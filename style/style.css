@@ -6,8 +6,8 @@
 body{font-family:'Roboto',sans-serif;
     color:var(--primary-text-color);background-color:var(--background-color); }
 
-a:hover{color:var(--accent-color); } 
-a :focus {color: var(--accent-color);}
+a:hover{ text-decoration:underline; color:var(--accent-color); } 
+a:focus-within{ color:var(--accent-color);}
 
 a {text-decoration-line: none;}
 
@@ -22,9 +22,10 @@ a {text-decoration-line: none;}
     font-size:18px;
     line-height: 1.3;
     color:var(--accent-color);}
-.header{font-size:16px;
+.header-link 
+        {font-size:16px;
         line-height:1.5;
-        color:var(--secondary-text-color);}
+        color:var(--secondary-text-color)}
  
 .list {list-style:none;}
 
@@ -38,11 +39,11 @@ a {text-decoration-line: none;}
     color:var(--primary-text-color);}
    
 .button {
-    
-     Font size: 16px;
-    Line height:1.5;
-     background-color:var(--button-background);color:var(--accent-color);} 
-.button:active{background-color:var(--accent-color); color:var(--white-color);}
+    font-size: 16px;
+    line-height:1.5;
+     background-color:var(--button-background); color:var(--accent-color);} 
+.button:hover{background-color:var(--accent-color); color:var(--white-color);} 
+.button:focus-visible{background-color:var(--accent-color); color:var(--white-color)}
 .button {cursor:pointer;} 
 
 .section{background-color:var(--secondary-text-color);}
@@ -73,19 +74,23 @@ a {text-decoration-line: none;}
     color:var(--button-background);}
 
 .adress{list-style:none;}
-.section-button{ background-color: var(--accent-color);}
+.section-button { font-family:inherit;
+                  font-size: 16px;
+                  line-height:1.8;
+                 background-color:var(--accent-color);
+                 color:var(--white-color);
+                  }
 
 .title{
      font-size: 56px;
     line-height:1.07;
     
     color:var(--white-color);}
-
 .section-advantages {
     font-size: 20px;
     line-height: 1.2; color:var(--secondary-text-color);}
 .section-text {font-family:inherit;
-   
+    
     font-size: 16px;
     line-height:1.5;
     color:var(--primary-text-color);}
