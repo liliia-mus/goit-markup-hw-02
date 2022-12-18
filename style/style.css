@@ -8,6 +8,7 @@ body{font-family:'Roboto',sans-serif;
 
 .header-link:hover{  color:var(--primary-text-color); } 
 .header-link:focus-within{ color:var(--primary-text-color);}
+.header-link:active{color:var(--accent-color);}
 
 a {text-decoration-line: none;}
 
@@ -31,6 +32,7 @@ a {text-decoration-line: none;}
 .adress{list-style:none;}
 .adress:hover{color:var(--accent-color);}
 .adress:focus{color:var(--accent-color);}
+.adress:active{color:var(--accent-color);}
 
 .adress
 {    
