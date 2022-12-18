@@ -6,8 +6,8 @@
 body{font-family:'Roboto',sans-serif;
     color:var(--primary-text-color);background-color:var(--background-color); }
 
-a:hover{ text-decoration:underline; color:var(--accent-color); } 
-a:focus-within{ color:var(--accent-color);}
+.header-link:hover{  color:var(--primary-text-color); } 
+.header-link:focus-within{ color:var(--primary-text-color);}
 
 a {text-decoration-line: none;}
 
@@ -29,6 +29,8 @@ a {text-decoration-line: none;}
 .list {list-style:none;}
 
 .adress{list-style:none;}
+.adress:hover{color:var(--accent-color);}
+.adress:focus{color:var(--accent-color);}
 
 .adress
 {    
